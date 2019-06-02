@@ -1,3 +1,1 @@
-<Component value = { 123 } >
-  hello
-</Component>
+<Component value = { 123 } >hello</Component>
