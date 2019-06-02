@@ -16,12 +16,17 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "node test/run.js"
+    "test": "node test/run.js",
+    "start": "node app.js"
   },
   "peerDependencies": {
-    "acorn": "^6.0.0"
+    "acorn": "^6.1.1"
   },
   "devDependencies": {
-    "acorn": "^6.0.0"
+    "@babel/generator": "^7.4.4",
+    "@babel/parser": "^7.4.5",
+    "@babel/traverse": "^7.4.5",
+    "acorn": "^6.1.1",
+    "prettier": "^1.17.1"
   }
 }
