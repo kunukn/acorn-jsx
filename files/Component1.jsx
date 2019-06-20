@@ -1,1 +1,1 @@
-<Component value = { 123 } >hello</Component>
+<ABC howdy={123}>hello</ABC>;

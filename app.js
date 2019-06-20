@@ -18,6 +18,6 @@ let str = JSON.stringify(result, null, 2);
 
 console.log(str);
 
-fs.writeFile("./out/Component1", str, err => {
+fs.writeFile("./out/Component1.json", str, err => {
   if (err) throw new Error(err);
 });

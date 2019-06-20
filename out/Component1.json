@@ -1,39 +1,39 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 45,
+  "end": 30,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 0,
-      "end": 45,
+      "end": 29,
       "expression": {
         "type": "JSXElement",
         "start": 0,
-        "end": 45,
+        "end": 28,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 0,
-          "end": 28,
+          "end": 17,
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 11,
-              "end": 26,
+              "start": 5,
+              "end": 16,
               "name": {
                 "type": "JSXIdentifier",
-                "start": 11,
-                "end": 16,
-                "name": "value"
+                "start": 5,
+                "end": 10,
+                "name": "howdy"
               },
               "value": {
                 "type": "JSXExpressionContainer",
-                "start": 19,
-                "end": 26,
+                "start": 11,
+                "end": 16,
                 "expression": {
                   "type": "Literal",
-                  "start": 21,
-                  "end": 24,
+                  "start": 12,
+                  "end": 15,
                   "value": 123,
                   "raw": "123"
                 }
@@ -43,27 +43,27 @@
           "name": {
             "type": "JSXIdentifier",
             "start": 1,
-            "end": 10,
-            "name": "Component"
+            "end": 4,
+            "name": "ABC"
           },
           "selfClosing": false
         },
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 33,
-          "end": 45,
+          "start": 22,
+          "end": 28,
           "name": {
             "type": "JSXIdentifier",
-            "start": 35,
-            "end": 44,
-            "name": "Component"
+            "start": 24,
+            "end": 27,
+            "name": "ABC"
           }
         },
         "children": [
           {
             "type": "JSXText",
-            "start": 28,
-            "end": 33,
+            "start": 17,
+            "end": 22,
             "value": "hello",
             "raw": "hello"
           }
